@@ -22,3 +22,9 @@ for i in [9, 41, 12, 3, 74, 15] :
     count = count + 1
     sum = sum + i
 print('The Average of this array is ', sum / count)
+
+
+# Is in Python is stricter than double equal(==)
+0 == 0.0 #true Value
+0 is 0.0 #false Value is the same / but Type is different.
+
