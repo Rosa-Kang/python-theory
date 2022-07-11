@@ -43,3 +43,10 @@ while True:
         break
     print(data.decode(),end='')
 mysock.close()
+
+# TEXT Character Set
+# ASCII - American Standard Code for Information Interchange
+# The ord() function tells us the numeric value of a simple ASCII character
+# UTF-8 is recommended practice for encoding data to be exchanged between systems.
+
+# In Python 3, all strings are unicode.
